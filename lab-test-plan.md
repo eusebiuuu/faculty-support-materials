@@ -217,5 +217,5 @@ void menu() {
 	- [ ] Create builder classes
 	- [ ] Comments with used OOP concepts
 4. Examples
-	- [Example 1](https://github.com/FMI-Materials/FMI-Materials/blob/main/Year%20I/Semester%20II/Programare%20Orientata%20Pe%20Obiecte/Modele%20Colocviu/2019%20-%202020/Rezolvari/Model%2001%20Rezolvare%201.cpp)
-	- [Example 2]()
+	- [Example 1 (cod furat)](https://github.com/FMI-Materials/FMI-Materials/blob/main/Year%20I/Semester%20II/Programare%20Orientata%20Pe%20Obiecte/Modele%20Colocviu/2019%20-%202020/Rezolvari/Model%2001%20Rezolvare%201.cpp)
+	- [Example 2 (codul meu)](./main.cpp)
