@@ -201,21 +201,26 @@ void menu() {
 	- [ ] Encapsulation (getters and setters) (CLion generated)
 	- [ ] Computations in functions, not on data members
 	- [ ] Statement specific functionalities
-1. Additional advice
+7. Additional advice
 	- [ ] Singleton on control panel class (or Menu class)
 	- [ ]  Try - catch in menu (on menu commands execution)
 	- [ ] Use `sort`  (with lambda and predefined comparison operator) and `count` functions (if possible)
 	- [ ] Add factory class for base classes for ease in reading specific types and copying
 	- [ ] **Read and print n objects functionality in menu**
-2. Testing
+8. Testing
 	- [ ] Test the app with the demo (if any)
 	- [ ] Create input file and run the app with it
-3. If any time left
+9. If any time left
 	- [ ] Add more STL containers and features (pair, map, array, list, iterators etc.)
 	- [ ] Other operators overloading (member and non-member functions)
 	- [ ] Struct
+	- [ ] Exception classes from `std::exception`
 	- [ ] Create builder classes
-	- [ ] Comments with used OOP concepts
-4. Examples
-	- [Example 1 (cod furat)](https://github.com/FMI-Materials/FMI-Materials/blob/main/Year%20I/Semester%20II/Programare%20Orientata%20Pe%20Obiecte/Modele%20Colocviu/2019%20-%202020/Rezolvari/Model%2001%20Rezolvare%201.cpp)
-	- [Example 2 (codul meu)](./main.cpp)
+	- [ ] Comments on used OOP concepts
+10. Examples
+	- Example 1
+    	- [Cerinta](https://github.com/FMI-Materials/FMI-Materials/blob/main/Year%20I/Semester%20II/Programare%20Orientata%20Pe%20Obiecte/Modele%20Colocviu/2019%20-%202020/Model%2001.pdf)
+    	- [Cod furat](https://github.com/FMI-Materials/FMI-Materials/blob/main/Year%20I/Semester%20II/Programare%20Orientata%20Pe%20Obiecte/Modele%20Colocviu/2019%20-%202020/Rezolvari/Model%2001%20Rezolvare%201.cpp)
+	- Example 2
+    	- [Cerinta](https://github.com/FMI-Materials/FMI-Materials/blob/main/Year%20I/Semester%20II/Programare%20Orientata%20Pe%20Obiecte/Modele%20Colocviu/2020%20-%202021/Model%2004.pdf)
+    	- [Codul meu](./main.cpp)

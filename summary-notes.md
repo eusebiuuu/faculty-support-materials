@@ -231,8 +231,24 @@
     (constructors), operators overloading, templates)
 
 26. Virtual destructors need abstract base class
+27. `Typeinfo` ChatGPT
 
-27. A derived class from an abstract class must implement the
+28. A derived class from an abstract class must implement the
     virtual function in order to not be abstract too
 
-28. Dynamic cast iff polymorphic hierarchy
+29. Dynamic cast iff polymorphic hierarchy
+30. Move constructor ??
+31. STL (refactor)
+    - vector::push_back creates a temporary object from the given object (initialisation constructor), then there is space allocated and the copy constructor called, and then the temp is destroyed and the copy is kept
+    - on another push back ??
+    - C, CC, D (temp), C, CC, CC, D, D, D, D
+    - `auto` deducts the type from the right operand
+    - `reverse_iterator`
+    - `rbegin` and `rend` iterators -> + to go reverse
+    - `back` returns a reference to the last element
+    - `erase` - value (erase all occurences) & iter (erase all elements from the iterator's position (start -> end))
+    - `list` container represents a double linked list
+    - memory allocation ordering: C, CC, D, C, CC, D, D, D
+    - `stack` - simple linked list
+    - `container<T, allocater<T>>` - the container is represented in memory with the given allocator
+    - 
