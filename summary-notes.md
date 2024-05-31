@@ -27,7 +27,19 @@
   - Default parameters must be specified only once (either in
           definition, either in implementation)
 
-  - Arrays of pointers (\*\*p)
+  - Arrays of pointers (**p) (generalisation)
+  - Pointers of class T conversion to pointers of class U
+  - Attention to assignment operator definition
+  - Attention to constructor definition (check the course 13 code)
+  - Any member non-static non-friend function have the pointer `this`
+  - Late binding mechanisms
+  - A base class pointer specified at compile time cannot access specific classes with casting
+  - Dynamic cast and others only on polymorphic hierarchies
+  - A vector is a constant pointer
+  - Constants and references can be initialised in classes only with the initialisation constructor list
+  - References dont respect upcasting
+  - Temporary objects are const
+  - `this` is a pointer to a constant
 
   - Modifications of the reference represent modifications of
         the referred value.
@@ -56,9 +68,10 @@
 
     vi. T x = const T a is valid syntax
 
+
     vii. A non-const reference cannot reference a const object
 
-    viii. Returning consts by value in functions has no special
+    - Returning consts by value in functions has no special
           meaning, thus one can convert it to the non-constant
           type without any problem
 
@@ -66,6 +79,9 @@
 
     i.  Aggregation / composition: composition of an object of more
         simpler (and independent / dependent) objects
+
+    - Const functions cannot modify the `this` pointer (solution: casting and mutable)
+    - 
 
     ii. Union type (to be completed)
 
@@ -142,7 +158,7 @@
     vii. Virtual destructors in polymorphic hierarchies
 
 8.  Statics
-
+    - Static objects are destroyed only at the end, after all objects from the same scope are destroyed
     i.  Static data are variables unique for the class they are
         instantiated in, but same for all objects of that class;
         they are stored in memory independent of the objects
