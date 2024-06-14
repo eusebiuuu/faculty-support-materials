@@ -112,8 +112,12 @@ public:
    - Read **ALL** the statement
    - Figure out the overall app functionality
    - Divide it into required and extra
-3. Implement `Stream` and `Checker` classes
-4. Classes creation
+   - Write down important info
+   - Set the classes with own pointers & classes with borrowed pointers
+4. Initial implementations
+    - `Stream` and `Checker` classes
+    - `using namespace std;`
+5. Classes creation
 	- [ ] Default constructor
 	- [ ] Normal constructor
 		- Initialisation list
@@ -123,18 +127,19 @@ public:
 	- [ ] Encapsulation (getters and setters)
 	- [ ] Add ID with static counter
 	- [ ] Classes with pointers (rule of three, kind of)
-    	- Copy constructor must be overriden
-    	- Assignment operator must be overriden (check for self-assignment, delete the existing memory)
+    	- Copy constructor must be overridden
+    	- Assignment operator must be overridden (check for self-assignment, delete the existing memory)
     	- The destructor must delete the respective allocated memory
     - [ ] Clone function (on small hierarchy)
+    - [ ] Pay attention on using the out operator on `write` function (not `std::cout`)
 	- [ ] Specific required functionalities
-5. Menu functionalities
+6. Menu functionalities
 	- [ ] Singleton class
 	- [ ] Read and print n objects functionality
 	- [ ] Try - catch
 	- [ ] Pay attention to pointers (instead of objects) printing (on all `cout` occurences)
-6. Testing
-7.  Extra
+7. Testing
+8.  Extra
 	- [ ] Add the rest of functionalities
 	- [ ] Use the checker class on some input
 	- [ ] Use `sort` (with lambda and predefined comparison operator)
@@ -143,7 +148,7 @@ public:
 	- [ ] Add more STL containers and features (pair, map, array, list, iterators etc.)
 	- [ ] Other operators overloading (member and non-member functions)
 	- [ ] Create builder classes
-8.  Examples
+10. Examples
 	- Example 1
     	- [Cerinta](https://github.com/FMI-Materials/FMI-Materials/blob/main/Year%20I/Semester%20II/Programare%20Orientata%20Pe%20Obiecte/Modele%20Colocviu/2019%20-%202020/Model%2001.pdf)
     	- [Cod furat](https://github.com/FMI-Materials/FMI-Materials/blob/main/Year%20I/Semester%20II/Programare%20Orientata%20Pe%20Obiecte/Modele%20Colocviu/2019%20-%202020/Rezolvari/Model%2001%20Rezolvare%201.cpp)
